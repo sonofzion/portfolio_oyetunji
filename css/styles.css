@@ -306,16 +306,14 @@ p{
 #main-footer #contact-form .form-group {
     margin-bottom: 10px;
 }
-.social-links {
-      color: #fff !important;
 
-}
 
 
 #social-container {
     background: rgb(247, 252, 252);
     border-radius: 3px;
     justify-content: space-between;
+    padding: 5px;
 
 }
 
