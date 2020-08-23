@@ -33,7 +33,7 @@
         <div class="container">
             <h1 class="l-heading"><span class="primary-text">You</span> want to have a chat?</h1>
             <p>Please fill out the form below to contact me </p>
-            <form action="process.php"></form>
+        <form name="contact-form" id="contact" method="POST" data-netlify="true">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name">
@@ -47,37 +47,42 @@
                 <textarea name="message" id="message"></textarea>
             </div>
             <button type= "submit" class="btn">submit</button>
-            
+        </form>
 
         </div>
     </section>
     
   
     <footer id="main-footer">
-        <div id="contact-form">
-               
-       <p>Subscribe to receive News-letters from me</p>
-       <form action=""></form>
-           <div class="form-group">
-               <label for="email">Email Address</label>
-               <input class="footer-email" type="email" name="email" id="email">
-           </div>
-           <button type= "submit" class="btn">Subscribe</button>
-   </div>
-
-   <div id="foot">
-    <p id="copywrite">Atilade Oyetunji &copy; 2020, All Rights Reserved</p>
+        <div class="footer-flex">    
+            <div id="contact-form">
+                    
+            <p>Subscribe to receive News-letters from me</p>
+            <form name="subscribe-form" id="subscribe-form" method="POST" data-netlify="true">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input class="footer-email" type="email" name="email" id="email">
+                </div>
+                <button type= "submit" class="btn">Subscribe</button>
+            </form>    
+            </div>
     
-
-<p id="social-container" class="social-links">
-    <a href="https://twitter.com/son_f_zion" target="_blank"><i class="fab fa-twitter"></i><span class="screen-reader-text">Twitter</span></a>
-    <a href="https://linkedin.com/in/atilade-oyetunji-743312125/" target="_blank"><i class="fab fa-linkedin"></i></i><span class="screen-reader-text">linkedin</span></a>
-    <a href="https://instagram.com/tunjiatilade" target="_blank"><span class="fa-instagram fa" aria-hidden="true"></span><span class="screen-reader-text">Instagram</span></a>
-    <a href="https://github.com/sonofzion" target="_blank"><span class="fa-github fa" aria-hidden="true"></span><span class="screen-reader-text">GitHub</span></a>
-    </p>
-
-</div>
-   </footer>
+            <div id="foot">
+                    <p id="copywrite">Atilade Oyetunji &copy; 2020, All Rights Reserved</p>
+                   
+            </div>
+            <div>
+    
+                <p id="social-container" class="social-links">
+                    <a href="https://twitter.com/son_f_zion" target="_blank"><i class="fab fa-twitter"></i><span class="screen-reader-text">Twitter</span></a>
+                    <a href="https://linkedin.com/in/atilade-oyetunji-743312125/" target="_blank"><i class="fab fa-linkedin"></i></i><span class="screen-reader-text">linkedin</span></a>
+                    <a href="https://instagram.com/tunjiatilade" target="_blank"><span class="fa-instagram fa" aria-hidden="true"></span><span class="screen-reader-text">Instagram</span></a>
+                    <a href="https://github.com/sonofzion" target="_blank"><span class="fa-github fa" aria-hidden="true"></span><span class="screen-reader-text">GitHub</span></a>
+                    </p>
+    
+            </div>
+        </div>    
+        </footer>
    <div class="clr"></div>
     
 </body>

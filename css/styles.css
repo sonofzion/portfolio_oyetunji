@@ -185,7 +185,8 @@ p{
 
 /* features */
 
-#features {
+.skills-container {
+    display: flex;
     margin-top: 20px;
 }
 .box {
@@ -279,13 +280,12 @@ p{
     padding-top: 50px;
 }
 
-/* footer */
+
 #main-footer {
     text-align: center;
     background:#082834;
     color: #fff;
     padding: 20px;
-    height: 250px;
     overflow: auto;
     margin-top: 180px;
 }
@@ -297,7 +297,6 @@ p{
 
 #main-footer #contact-form {
     float: left;
-    padding-bottom: 5%;
     max-height: 90%;
     max-width:30%;
      vertical-align: middle;
@@ -308,34 +307,24 @@ p{
     margin-bottom: 10px;
 }
 .social-links {
-    float: left;
-    max-width:40%;
-      pointer-events: auto;
       color: #fff !important;
 
 }
 
-#copywrite {
-    float: left;
-    max-width: 30%;
-    padding-right: 40px;
-    margin-right: 250px;
-
-}
-
-#foot {
-    float: right;
-}
 
 #social-container {
     background: rgb(247, 252, 252);
     border-radius: 3px;
+    justify-content: space-between;
 
 }
 
-#foot #social-container a {
-    padding: 5px;
-}
-#foot #social-container a:hover {
+ #social-container a:hover {
     background: lightcoral;
+}
+.footer-flex {
+    display: flex;
+    margin-left: 0 100px;
+    flex: 1;
+    justify-content: space-evenly;
 }
