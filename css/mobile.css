@@ -123,20 +123,21 @@ color: white;
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(2,auto);
     grid-gap: 1rem;
-    width: 90vw;
+    width: 100vw;
     margin: 0 auto;
     padding: 0 60px;
-}
-.soft-container {
-    text-align: center;
+     text-align: center;
     color: white;
-   
+    white-space: nowrap;
 }
+
 .soft-container h2 {
      padding-top: 20px;
 }
 .soft-container p{
-    padding: 0 10px ;
+    padding: 0 5px ;
+    white-space: normal;
+    overflow: auto;
 }
 .middle {
     display: none;
