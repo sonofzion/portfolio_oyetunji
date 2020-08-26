@@ -124,15 +124,16 @@ color: white;
     grid-template-rows: repeat(2,auto);
     grid-gap: 1rem;
     width: 100vw;
-    margin: 0 auto;
+    height: auto;
     padding: 0 60px;
+    justify-content: center;
      text-align: center;
     color: white;
     white-space: nowrap;
 }
 
 .soft-container h2 {
-     padding: 20px 5px 0 5px;
+     padding: 5px 5px 0 5px;
 
 }
 .soft-container p{
@@ -156,3 +157,7 @@ color: white;
     padding-left: 15px;
 }
 
+.soft-skills#skill-1 {
+   overflow: scroll;
+
+}
