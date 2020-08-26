@@ -110,6 +110,7 @@ background: #45545a;
 padding: 6px;
 border-radius: 10px;
 color: white;
+white-space: nowrap;
 }
 .info-left a:hover {
     background: teal;
@@ -167,4 +168,7 @@ color: white;
 .soft-skills#skill-1 {
    overflow: scroll;
 
+}
+#contact-form .container .l-heading {
+    line-height: 2.3rem;
 }
