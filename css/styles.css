@@ -25,6 +25,7 @@
     padding: 13px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 .btn:hover {
     background: #f7c08a;
@@ -194,7 +195,11 @@ p{
 
 .skills-container {
     display: flex;
-    margin-top: 20px;
+    margin: 20px 20px 0 20px;
+   
+}
+.skills-container .box.bg-light {
+      margin: 0 10px 0 10px
 }
 .box {
     float: left;

@@ -52,6 +52,10 @@ body {
     width: 100vw;
     margin-top: 20px;
 }
+.skills-container .box.bg-primary {
+    margin: 0 0 0 10px;
+}
+
 #showcase {
     background: url('../img/good.jpg') repeat
     center center/cover;
@@ -65,7 +69,10 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-
+.testimonial-section .primary-text {
+    text-align: center;
+    margin-left: 0px;
+}
 .testimonial {
 display: flex;
 }
