@@ -1,0 +1,152 @@
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh; 
+    
+}
+
+#navbar ul li {
+    float: none;
+    text-align: center;
+}
+#navbar ul {
+    list-style: none;
+    float: none;
+    padding-bottom: 20px;
+}
+
+#navbar h1 {
+    float: none;
+    padding: 20px 0 0 0;
+    
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px 0;
+    color: #fff;
+    border-bottom: palegoldenrod solid 1px;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+    border-radius: 0;
+    
+}
+#navbar p {
+    float: none;
+    padding: 35px 0 0 0px;
+    text-align: center;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+   
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 20px;
+}
+#showcase {
+    background: url('../img/good.jpg') repeat
+    center center/cover;
+    height: 100vh;
+}
+
+.box {
+    float: none;
+    width: 80vw;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.testimonial {
+display: flex;
+}
+.testimonial img {
+    width: 100px;
+    float: none;
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 70%;
+    margin-top: 30px;
+}
+.testimonial.bg-primary {
+    max-height: 190px ;
+white-space: nowrap;
+
+}
+.testimonial.bg-primary p{
+    white-space: normal;
+    overflow: auto;
+}
+.info-left h1 {
+    line-height: 2.5rem;
+    text-align: center;
+}
+#about-info .info-right img {
+    display: block;
+    margin-top: 150px;
+    /* margin: auto; */
+    width: 50%;
+    border-radius: 50%;
+}
+.info-left a {
+margin-left: 5em;
+background: #45545a;
+padding: 6px;
+border-radius: 10px;
+color: white;
+}
+.info-left a:hover {
+    background: teal;
+    color: wheat ;
+}
+
+.footer-flex {
+    display: flex;
+    flex: auto;
+    margin-left: 0 100px;
+    flex: 1;
+    margin-bottom: auto;
+    justify-content: space-evenly;
+}
+
+.soft-container {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 1rem;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+.soft-container {
+    text-align: center;
+    color: white;
+   
+}
+.soft-container h2 {
+     padding-top: 20px;
+}
+.soft-container p{
+    padding: 0 10px ;
+}
+.middle {
+    display: none;
+  }
+
+  .middle .text {
+      display: none; 
+} 
+.project-container1:hover .middle {
+  display: none;
+ 
+}
+
