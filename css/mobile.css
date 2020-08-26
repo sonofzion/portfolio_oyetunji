@@ -132,7 +132,8 @@ color: white;
 }
 
 .soft-container h2 {
-     padding-top: 20px;
+     padding: 20px 5px 0 5px;
+
 }
 .soft-container p{
     padding: 0 5px ;
