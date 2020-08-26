@@ -184,6 +184,11 @@ p{
         height: 350px;
   
 }
+.lead {
+    background: black;
+    opacity: 0.9;
+    border-radius: 5px;
+}
 
 /* features */
 
