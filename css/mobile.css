@@ -5,6 +5,14 @@ body {
     
 }
 
+#navbar {
+    position: static;
+    top: 0;
+    left:0;
+    z-index: 1;
+   
+}
+
 #navbar ul li {
     float: none;
     text-align: center;
@@ -126,29 +134,7 @@ white-space: nowrap;
     justify-content: space-evenly;
 }
 
-.soft-container {
-    display: grid;
-    grid-template-columns: repeat(2,auto);
-    grid-template-rows: repeat(2,auto);
-    grid-gap: 1rem;
-    width: 100vw;
-    height: auto;
-    padding: 0 60px;
-    justify-content: center;
-     text-align: center;
-    color: white;
-    white-space: nowrap;
-}
 
-.soft-container h2 {
-     padding: 5px 5px 0 5px;
-
-}
-.soft-container p{
-    padding: 0 5px ;
-    white-space: normal;
-    overflow: auto;
-}
 .middle {
     display: none;
   }
@@ -172,3 +158,12 @@ white-space: nowrap;
 #contact-form .container .l-heading {
     line-height: 2.3rem;
 }
+.socials-container {
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 40px 40px 40px 100px;
+    border-radius: 40px;
+    /* width: 100%; */
+  }
+
+  
