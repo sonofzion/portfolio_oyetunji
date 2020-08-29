@@ -103,7 +103,7 @@ p{
     left:0;
     z-index: 1;
     padding: 8px;
-    opacity: 0.8;
+    opacity: 0.9;
    
 
 }
@@ -120,6 +120,7 @@ p{
 #navbar ul {
     list-style: none;
     float: right;
+    margin-top: -20px;
     }
 
 #navbar ul li {
@@ -139,6 +140,10 @@ p{
     background: #444;
     color: #f7c08a;
     border-radius: 10px;
+}
+.menu-wrap input {
+    visibility: hidden;
+    margin: 0px;
 }
 
 /* Showcase */
