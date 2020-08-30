@@ -510,7 +510,10 @@ p{
       margin-bottom: 15px;
       font-size: 1.5rem;
   }
-
+  #hi {
+    margin-top: 150px;
+    
+}
   .projects {
     font-size: 1.6rem;
     text-align: center;

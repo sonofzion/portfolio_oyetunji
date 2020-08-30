@@ -67,6 +67,12 @@ body {
     padding-top: 100px;
    
 }
+.showcase-content h1 {
+    margin-left: 40px;
+}
+.showcase-content a {
+    margin-left: 50px;
+}
 
 .skills-container {
     display: flex;
@@ -88,9 +94,10 @@ body {
     opacity: 0.9;
     border-radius: 5px;
     margin-left: 50px;
-   
-
-}
+ }
+ .testimonial-section h1 {
+    margin-left: -60px;
+ }
 
 .box {
     float: none;
@@ -148,6 +155,7 @@ white-space: nowrap;
 
 .footer-flex {
     display: flex;
+    flex-direction: column;
     flex: auto;
     margin-left: 0 100px;
     flex: 1;
@@ -174,6 +182,17 @@ white-space: nowrap;
     padding: 40px 40px 40px 100px;
     border-radius: 40px;
     
+  }
+
+  #work-intro {
+      margin-top: -70px;
+  }
+  #work-intro h1 {
+      line-height: 3rem;
+  }
+  #hi {
+      margin-top: 40px;
+      
   }
 
   .menu-wrap {
