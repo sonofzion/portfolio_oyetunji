@@ -362,3 +362,10 @@ white-space: nowrap;
              columns: 1;
     }
 }
+
+#abt {
+    height: 800px;
+    }
+    #about-info {
+        margin-top: 10px;
+    }
