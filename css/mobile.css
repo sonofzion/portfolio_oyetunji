@@ -338,4 +338,27 @@ white-space: nowrap;
     color: var(--secondary-color);
     transition: color 0.3s ease;
 }
+@media(max-width: 1200px) {
+    .mansonry {
+        -moz-columns: 3;
+             columns: 3;
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+        padding: 20px 20px 20px 0;
+        margin-top: 500px;
+    }
+}
 
+@media(max-width: 768px) {
+    .mansonry {
+        -moz-columns: 2;
+             columns: 2;
+    }
+}
+
+@media(max-width: 480px) {
+    .mansonry {
+        -moz-columns: 1;
+             columns: 1;
+    }
+}
