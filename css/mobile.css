@@ -183,7 +183,9 @@ white-space: nowrap;
     border-radius: 40px;
     
   }
-
+  #contact-form .socials-container {
+      margin-bottom: 40px;
+  }
   #work-intro {
       margin-top: -70px;
   }

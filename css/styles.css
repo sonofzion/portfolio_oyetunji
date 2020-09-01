@@ -422,8 +422,13 @@ p{
     flex-wrap: wrap;
     }
 #contact-form .socials-container{
-    /* color: #f7c08a; */
-    background: #f7c08a;
+        background: #f7c08a;
+        margin-bottom: auto;
+}
+#contact-form .socials-container h2 {
+    text-align: left;
+    margin-left: 60px;
+
 }
 .socials-container {
     margin-left: 200px;
