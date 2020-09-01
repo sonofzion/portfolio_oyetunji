@@ -393,6 +393,7 @@ p{
     height: 100px;
     width: 60vw;
     margin: 20px auto;
+    margin-bottom: auto;
 }
  .testimonial img {
     width: 100px;
