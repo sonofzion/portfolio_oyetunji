@@ -18,6 +18,7 @@ body {
     top: 0;
     left:0;
     z-index: 1;
+    opacity: 1;
    
 }
 
@@ -49,8 +50,8 @@ body {
    }
 #navbar ul li a:hover,
 #navbar ul li a.current {
-    background: #444;
-    color: #f7c08a;
+    background: #fff;
+    color: #082834;
     border-radius: 10px;
     padding: 10px;
     
@@ -83,18 +84,17 @@ body {
 .skills-container .box.bg-primary {
     margin: 0 0 0 10px;
 }
-
 #showcase {
-    background: url('../img/good.jpg') repeat
-    center center/cover;
+    position: static;
     height: 100vh;
 }
-.lead {
-    background: none;
-    opacity: 0.9;
-    border-radius: 5px;
-    margin-left: 50px;
- }
+
+
+ /* * image-section */ 
+.testimonial-section {
+    width: 90vw;
+    margin: 20px auto;
+   }
  .testimonial-section h1 {
     margin-left: -60px;
  }
@@ -117,9 +117,9 @@ display: flex;
     width: 100px;
     float: none;
     margin-right: 20px;
-    border-radius: 50%;
-    height: 70%;
-    margin-top: 30px;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 10px;
 }
 .testimonial.bg-primary {
     max-height: 190px ;
